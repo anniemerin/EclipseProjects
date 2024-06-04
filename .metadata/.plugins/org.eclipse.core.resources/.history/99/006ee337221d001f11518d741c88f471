@@ -1,0 +1,25 @@
+package exceptions;
+
+
+public class UncheckedException {
+int quo;
+	void division()
+	{
+		try {
+			 quo=10/0;
+			
+		}
+		catch (Exception e) {
+			
+			System.out.println("Exception message when divided by zero:"+e);
+		}
+		
+	}
+	
+	void nullpointer()
+	{
+		
+	}
+	
+	
+}

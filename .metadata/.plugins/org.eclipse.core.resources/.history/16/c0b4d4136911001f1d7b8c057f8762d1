@@ -1,0 +1,15 @@
+package assignments2String;
+
+public class AnnieStringbetween2positions {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Write a Java program to get a substring of a given string between two specified positions​
+		
+		String str1="Merin Annie Thomas";
+		String str2= str1.substring(4, 13);
+		System.out.println("Subsstring of the given string: "+str2);
+
+	}
+
+}

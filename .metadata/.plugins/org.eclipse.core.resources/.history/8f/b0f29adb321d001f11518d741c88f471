@@ -1,0 +1,19 @@
+package exceptions;
+
+public class CheckedExceptions {
+	
+	
+	public void run() {
+        try {
+            // Simulate some time-consuming task
+            for (int i = 0; i < 3; i++) {
+                System.out.println("Task in progress...");
+                Thread.sleep(1000); // Sleep for 1 second
+            }
+        } catch (InterruptedException e) {
+            // Handle InterruptedException
+            System.out.println("Thread interrupted while sleeping: " + e.getMessage());
+        }
+    }
+
+}

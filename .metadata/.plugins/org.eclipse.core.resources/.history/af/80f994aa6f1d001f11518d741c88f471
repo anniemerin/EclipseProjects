@@ -1,0 +1,13 @@
+package assignment5;
+
+public class ExceptionHandling3Main {
+
+	public static void main(String[] args) throws InvalidAgeException {
+		// TODO Auto-generated method stub
+		
+		ExceptionHandling3 eh=new ExceptionHandling3();
+		eh.agecheck();
+
+	}
+
+}

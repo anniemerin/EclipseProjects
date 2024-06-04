@@ -1,0 +1,27 @@
+package myPkg;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+public class myClass_T1 {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.gecko.driver","C:\\Users\\anupk\\Downloads\\geckodriver-v0.34.0-win64\\geckodriver.exe");
+    	
+		WebDriver driver = new FirefoxDriver();
+		String baseUrl = "https://www.amazon.in/";
+            // launch Fire fox and direct it to the Base URL
+        driver.get(baseUrl);
+        driver.manage().window().maximize();
+        Thread.sleep(4000);
+     driver.findElement(By.id("twotabsearchtextbox")).sendKeys("iPhone");
+     Thread.sleep(4000);
+     driver.findElement(By.id("nav-search-submit-button")).click();
+     Thread.sleep(2000);
+     driver.findElement(By.id("nav-link-accountList-nav-line-1")).click();
+     Thread.sleep(2000);
+     driver.findElement(By.id("createAccountSubmit")).click();
+	}
+
+}

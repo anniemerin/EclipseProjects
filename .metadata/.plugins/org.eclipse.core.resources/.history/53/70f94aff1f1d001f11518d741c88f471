@@ -1,0 +1,25 @@
+package exceptions;
+
+
+public class UncheckedException {
+	
+	
+	
+	try {
+		int num1=10;
+		int [] arr= {1,2,3};
+		String str="abc";
+		String nullp=null;
+		
+		int quo= (num1/0);
+	
+	
+	}
+	catch (Exception e){
+	
+		System.out.println(e);
+		
+	}
+	
+
+}

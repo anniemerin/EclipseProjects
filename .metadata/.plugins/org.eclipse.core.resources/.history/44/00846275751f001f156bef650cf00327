@@ -1,0 +1,27 @@
+package collections;
+
+import java.util.ArrayList;
+
+public class ArrayListClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ArrayList <String> List =new ArrayList <>();
+		
+		List.add("Merin");
+		List.add("Annie");
+		List.add("Nathania");
+		List.add("Thomas");
+		List.add("Isabel");
+		
+		System.out.println("Size of the List : "+List.size());
+		
+		// Display Elements.
+		
+		System.out.println("\nDisplay Elements");
+		for (String name:List)
+			System.out.println(name);
+	}
+
+}

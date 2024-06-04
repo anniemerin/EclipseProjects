@@ -1,0 +1,27 @@
+package exceptions;
+
+public class CheckedExceptionsMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		CheckedExceptions ex = new CheckedExceptions();
+
+	        // Create a thread and pass the worker instance to it
+	        Thread myThread = new Thread();
+
+	        // Start the thread by calling the start method
+	        myThread.start(); // This will invoke the run method of the Worker class
+
+	        // Interrupt the thread after 2 seconds
+	        try {
+	            Thread.sleep(2000);
+	            myThread.interrupt(); // Interrupt the thread
+	        } catch (InterruptedException e) {
+	            System.out.println("Main thread interrupted: " + e.getMessage());
+	        }
+	    }
+
+	}
+
+}

@@ -1,0 +1,44 @@
+package assignments;
+
+import java.util.Scanner;
+
+public class AnnieNumofdaysinMonth {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner=new Scanner(System.in);
+		System.out.println("Enter a month in Mon format");
+		String month=scanner.nextLine();
+		int numdays=0;
+		switch (month) {
+		case "Jan":
+		case "Mar":
+		case "May":
+		case "Jul":
+		case "Aug":
+		case "Oct":
+		case "Dec":	
+			numdays=31;
+			System.out.println("Number of days in the month "+month+" : "+numdays);
+			break;
+		case "Feb":
+			numdays=29;
+			System.out.println("Number of days in the month "+month+" : "+numdays);
+			break;
+		case "Apr":
+		case "Jun":
+		case "Sep":
+		case "Nov":	
+			numdays=30;
+			System.out.println("Number of days in the month "+month+" : "+numdays);
+			break;
+			
+		default:
+			System.out.println("Invalid value is entered");				
+			
+		}
+		
+
+	}
+
+}

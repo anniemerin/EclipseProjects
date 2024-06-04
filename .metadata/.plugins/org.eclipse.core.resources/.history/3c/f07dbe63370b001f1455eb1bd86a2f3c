@@ -1,0 +1,23 @@
+package assignments;
+
+public class AnnieFibonacciseries {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Write a program to print Fibonacci Series in the range of 1 to 50. Series: (1, 1, 2, 3, 5, 8, 13...).
+		
+		int num=0;
+		int i=1;
+		int fib;
+		//System.out.print(i);
+		while(i<=14);
+		{
+			System.out.print(num +",");
+			fib=num+i;
+			
+			i++;
+		}
+		//System.out.println(num);
+	}
+
+}

@@ -1,0 +1,13 @@
+package exceptions;
+
+public class UncheckedExceptionMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		UncheckedException ex=new UncheckedException();
+		System.out.println("Quotient of numbers : "+ex.quo);
+
+	}
+
+}

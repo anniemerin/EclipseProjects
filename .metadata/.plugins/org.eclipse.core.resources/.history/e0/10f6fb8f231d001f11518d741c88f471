@@ -1,0 +1,20 @@
+package exceptions;
+
+public class UncheckedExceptionMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		UncheckedException ex=new UncheckedException();			
+		ex.division();
+		System.out.println("Quotient is :"+ex.quo);
+		ex.nullpointer();
+		System.out.println("Length of string : "+ex.len);
+		ex.numberException();
+		System.out.println("String after converting to integer : "+ex.nullp);
+		ex.arrayBound();
+		System.out.println("Value at the 4th position : "+ex.val);
+
+	}
+
+}

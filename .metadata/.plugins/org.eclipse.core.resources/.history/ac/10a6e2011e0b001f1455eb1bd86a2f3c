@@ -1,0 +1,44 @@
+package assignments;
+
+import java.util.Scanner;
+
+public class AnnieLeapyear {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter a year in YYYY format");
+		//int year=scanner.nextInt();
+		String year=scanner.nextLine();
+		//String str=String.valueOf(year);
+		//String str=year.ToString("D5");
+		int lyear=Integer.valueOf(year);
+		int len=year.length();
+		System.out.println("Length:"+len);
+		scanner.close();
+		if(lyear >=0) {
+			if(len==4)
+			{
+				if ((lyear %4==0))
+				{
+					System.out.println("Entered year is: "+year+" and is a leap year");
+				}else {
+					System.out.println("Entered year is: "+year+" and is not a leap year");
+				}
+					
+				
+			}else {
+				System.out.println("Invalid year. Please follow the correct format");
+			}
+				
+		}else {
+			System.out.println("Invalid year77. Please follow the correct format");
+		}
+		
+			
+		
+		
+
+	}
+
+}
