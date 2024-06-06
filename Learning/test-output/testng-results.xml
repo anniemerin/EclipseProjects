@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-05T17:57:56 CST" name="Default suite" finished-at="2024-06-05T17:58:00 CST" duration-ms="4084">
+    <groups>
+    </groups>
+    <test started-at="2024-06-05T17:57:56 CST" name="Default test" finished-at="2024-06-05T17:58:00 CST" duration-ms="4084">
+      <class name="learningpkg.Locators">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:learningpkg.Locators@79e4c792]" started-at="2024-06-05T17:57:56 CST" name="beforeClass" finished-at="2024-06-05T17:57:56 CST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:learningpkg.Locators@79e4c792]" started-at="2024-06-05T17:57:56 CST" name="beforeMethod" finished-at="2024-06-05T17:57:58 CST" duration-ms="2014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="openUrl()[pri:0, instance:learningpkg.Locators@79e4c792]" started-at="2024-06-05T17:57:58 CST" name="openUrl" finished-at="2024-06-05T17:58:00 CST" duration-ms="2011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:learningpkg.Locators@79e4c792]" started-at="2024-06-05T17:58:00 CST" name="afterMethod" finished-at="2024-06-05T17:58:00 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:learningpkg.Locators@79e4c792]" started-at="2024-06-05T17:58:00 CST" name="afterClass" finished-at="2024-06-05T17:58:00 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- learningpkg.Locators -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
