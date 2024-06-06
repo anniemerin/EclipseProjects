@@ -5,7 +5,7 @@ public class AccessModifiersP1 {
 	public int publicv=100;
 	protected int protect=90;
 	int defaultv=80;
-	private int privatev=50;
+	//private int privatev=50;
 	
 	public void displaypublic()
 	{
@@ -25,9 +25,9 @@ public class AccessModifiersP1 {
 
 	}
 	 
-	 private void displayprivated()
-	 {
-		 System.out.println("I am private method ");
-	 }
+	/*
+	 * private void displayprivated() { System.out.println("I am private method ");
+	 * }
+	 */
 
 }

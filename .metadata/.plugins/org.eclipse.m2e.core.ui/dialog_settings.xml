@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\anupk\eclipse-workspace\Learning\src\test\resources"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -25,12 +26,17 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="Merin.Mat"/>
+			<item value="Merin.Learning"/>
 			<item value="selenium.Learning"/>
 		</list>
 		<list key="groupId">
+			<item value="Merin"/>
 			<item value="selenium"/>
 		</list>
 		<list key="artifactId">
+			<item value="Mat"/>
+			<item value="Test"/>
 			<item value="Learning"/>
 		</list>
 		<list key="projectNameTemplate">

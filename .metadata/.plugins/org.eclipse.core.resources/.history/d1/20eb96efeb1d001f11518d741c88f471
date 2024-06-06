@@ -1,6 +1,0 @@
-package exceptions;
-
-public class Test1 {
-
-	Thread.sleep(100);
-}
