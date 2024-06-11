@@ -16,6 +16,12 @@ public class TestNGBasics {
 	  
 	  System.out.println("This is my first method");
   }
+  
+  @Test
+  public void f1() {
+	  
+	  System.out.println("This is my first1 method");
+  }
   @BeforeMethod
   public void beforeMethod() {
 	  
@@ -62,3 +68,4 @@ public class TestNGBasics {
   }
 
 }
+

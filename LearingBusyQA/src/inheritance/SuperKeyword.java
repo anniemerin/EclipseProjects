@@ -33,30 +33,30 @@ class FirstChild extends SuperKeyword {
 		System.out.println("A in the First child class: "+a);
 		a=9;
 		
-	System.out.println("A in the First child classnnn: "+a);
+		System.out.println("A in the First child classnnn: "+a);
 		System.out.println("A in the Parent class: "+super.a);
 		
 	}
 }
 
-/*
- * class SecondChild extends SuperKeyword {
- * 
- * void displayP1 () {
- * 
- * super.displayP1(); super.displayP2();
- * 
- * System.out.println("Second child class Method");
- * 
- * }
- * 
- * }
- * 
- * class ThirdChild extends SuperKeyword {
- * 
- * ThirdChild () { super(); System.out.println("Third child class constructor");
- * } }
- */
+
+  class SecondChild extends SuperKeyword {
+  
+  void displayP1 () {
+  
+  super.displayP1(); super.displayP2();
+  
+  System.out.println("Second child class Method");
+  
+  }
+  
+  }
+  
+  class ThirdChild extends SuperKeyword {
+  
+  ThirdChild () { super(); System.out.println("Third child class constructor");
+  } }
+ 
 
 
  
