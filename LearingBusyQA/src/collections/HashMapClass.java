@@ -22,7 +22,7 @@ public class HashMapClass {
 			
 		System.out.println("Conatins a value: "+hashMap.containsValue("Take"));
 		System.out.println("Conatins a key: "+hashMap.containsKey(2));
-		
+		System.out.println("Get Key: "+hashMap.get(hashMap));
 		hashMap.putIfAbsent(7, "Achu");
 		System.out.println("Disply elements : "+hashMap);
 		hashMap.replace(7, "Achutty");
