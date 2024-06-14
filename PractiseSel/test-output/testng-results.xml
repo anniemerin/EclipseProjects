@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-12T15:40:07 CST" name="Default suite" finished-at="2024-06-12T15:40:15 CST" duration-ms="7842">
+    <groups>
+    </groups>
+    <test started-at="2024-06-12T15:40:07 CST" name="Default test" finished-at="2024-06-12T15:40:15 CST" duration-ms="7842">
+      <class name="practise.Locators1">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:practise.Locators1@196a42c3]" started-at="2024-06-12T15:40:07 CST" name="beforeClass" finished-at="2024-06-12T15:40:14 CST" duration-ms="6736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:practise.Locators1@196a42c3]" started-at="2024-06-12T15:40:14 CST" name="beforeMethod" finished-at="2024-06-12T15:40:14 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="RegisterPage()[pri:0, instance:practise.Locators1@196a42c3]" started-at="2024-06-12T15:40:14 CST" name="RegisterPage" finished-at="2024-06-12T15:40:15 CST" duration-ms="1058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterPage -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:practise.Locators1@196a42c3]" started-at="2024-06-12T15:40:15 CST" name="afterMethod" finished-at="2024-06-12T15:40:15 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:practise.Locators1@196a42c3]" started-at="2024-06-12T15:40:15 CST" name="afterClass" finished-at="2024-06-12T15:40:15 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- practise.Locators1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

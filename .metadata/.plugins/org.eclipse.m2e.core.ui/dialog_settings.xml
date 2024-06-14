@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\anupk\eclipse-workspace"/>
+			<item value="C:\Users\anupk\OneDrive\Desktop\Automation Learning\Codebase"/>
 			<item value="C:\Users\anupk\eclipse-workspace\Learning\src\test\resources"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -26,18 +28,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="Merin.Mat"/>
-			<item value="Merin.Learning"/>
-			<item value="selenium.Learning"/>
+			<item value="selcode.Srikant"/>
 		</list>
 		<list key="groupId">
-			<item value="Merin"/>
-			<item value="selenium"/>
+			<item value="selcode"/>
 		</list>
 		<list key="artifactId">
-			<item value="Mat"/>
-			<item value="Test"/>
-			<item value="Learning"/>
+			<item value="Srikant"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -73,5 +70,35 @@
 	<section name="org.eclipse.m2e.core.pom.overview">
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="Codebase"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="Codebase"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\anupk\OneDrive\Desktop\Automation Learning\SelCodebase\SelniumProject"/>
+			<item value="C:\Users\anupk\OneDrive\Desktop\Automation Learning\SelCodebase"/>
+			<item value="C:\Users\anupk\OneDrive\Desktop\Automation Learning\Sel\SelniumProject"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="Selcode.code-1"/>
+			<item value="p"/>
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
 	</section>
 </section>
