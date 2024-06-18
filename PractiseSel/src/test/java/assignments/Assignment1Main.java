@@ -36,7 +36,7 @@ public class Assignment1Main {
 			System.out.println("Invalid selection");					
 		}
 		
-		
+		scanner.close();
 	}
 
 }
