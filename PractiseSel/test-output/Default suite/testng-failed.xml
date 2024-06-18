@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="practise.Locators1">
+      <class name="assignments.LoginTestcases">
         <methods>
-          <include name="beforeMethod"/>
-          <include name="afterMethod"/>
-          <include name="RegisterPage"/>
-          <include name="afterClass"/>
+          <include name="TestCas4"/>
           <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- practise.Locators1 -->
+      </class> <!-- assignments.LoginTestcases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
